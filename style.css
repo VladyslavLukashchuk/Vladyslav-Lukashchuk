@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #333;
+  background: #f7f7f7;
+  font-size: 1em;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 135%;
+
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition: all.6s, ease;
+  -moz-transition: all.6s, ease;
+  -webkit-transition: all.6s, ease;
+  -ms-trasition: all.6s, ease;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: none;
+  transition: all.6s, ease;
+  -moz-transition: all.6s, ease;
+  -webkit-transition: all.6s, ease;
+  -ms-trasition: all.6s, ease;
+}
+
+a:active {color:aqua}
+
+::selection{background: red; color: white;}
+
+#logo {
+  font-size: 2em;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+.contact{
+  font-size: 1.5em;
+  font-family: Comic Sans MS, sans-serif;
+  margin-left: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.field{
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.field[input=search]:focus {
+  border: 5px solid red;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+header, footer {
+width: 98%;
+background-color: white;
+float: left;
+ min-height: 10px; 
+
+}
+
+header {
+  border-bottom: 2px solid silver;
+  padding: 1%;
+}
+
+#menu {
+  color: #666;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 1.7em;
+}
+
+#menu hr{
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+hr {
+  display:block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+.menuHrefs a{ 
+  padding: 5px;
+  border-radius: 5px;
+  color: #626262;
+  margin-right: 5px;
+
+}
+
+.menuHrefs a:hover{
+  color:blueviolet;
+  cursor: crosshair;
+  background-color: black;
+}
+
+footer {
+  border-top: 2px solid silver;
+  margin-top: 10px;
+  padding: 1%;
+  padding-bottom: 2%;
+  /* height: 70px; */
+ 
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#page-wrap::after {
+  content: "";
+  display: block;
+  overflow: auto;
+}
+
+footer, #page-wrap::after {
+  height: 10px;
+}
+
+
+ #page-wrap {
+ margin-bottom: -10px;
+ min-height: 94%;
+ overflow: auto;
+}
+
+#wrapper{
+float: left;
+width: 100%;
+margin-top: 20px;
+
+}
+
+#wrapper #articles{
+float: left;
+width: 80%;
+height: 400px;
+margin-left: 10%;
+
+}
+
+#wrapper #articles article{
+  float: left;
+  width: 31.3%;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin-right: 2%;
+  min-height: 400px;
+}
+
+#wrapper #articles article img {
+width: 100%;
+height: 200px;
+border-radius: 5px 5px 0px 0px;
+border-bottom: 1px salmon silver;
+margin-bottom: 10px;
+
+}
+
+#wrapper #articles article h2 {
+width: 90%;
+margin-left: 5%;
+font-weight: normal;
+font-size: 1.7em;
+color: #666;
+
+
+}
+
+#wrapper #articles article p {
+width: 80%;
+margin-left: 10%;
+text-indent: 1em;
+
+}
+
+#wrapper #articles article a {
+  float: right;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: rgb(151, 204, 121);
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 10px;
+
+}
+
+
+#wrapper #articles article a:hover {
+  
+  color: red;
+  background-color: black;
+  border-radius: 40px;
+  
+}
+
+#wrapper #articles article h2 {
+  float: left;
+  margin-left: 38%;
+}
+
+#mainsocblock{
+width: 100%;
+padding: 2% 0;
+border-top: 2px solid silver;
+border-bottom: 2px solid silver;
+margin: 20px 0;
+float: left;
+background: url("https://static.posters.cz/image/750/%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B8/marvel-universe-i31869.jpg") repeat-x;
+height: 200px;
+opacity: 90%;
+
+
+}
+
+#mainsocblockin{
+ text-align: center;
+ padding: 1%;
+ height: 100px;
+ background-color: #fafafa;
+ border: 1px solid silver;
+ border-radius: 7px;
+ width: 500px;
+ background: url("https://images.prom.ua/2142712562_poster-marvel-friendly.jpg");
+
+}
+
+#mainsocblockin a {
+  float: left;
+  padding: 6px 10px;
+  border-radius: 9px;
+  background-color: chocolate;
+  color: rgb(3, 2, 2);
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#mainsocblockin a:hover{
+  float: left;
+  background-image: url("https://static.posters.cz/image/750/%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B8/marvel-universe-i31869.jpg");
+  color: red;
+  border-radius: 50px;
+  
+}
+
+
+/* styles under are for about.php  */
+
+#aboutus {
+  width: 100%;
+  float: left;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+
+/* styles under are for feedback.php */
+
+
+form {
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid silver;
+
+}
+
+form input {
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid silver;
+}
+
+form textarea {
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid silver;
+} 
+
+form button {
+  border: 1px solid silver;
+  color: red;
+  background-color: aqua;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+form button:active {
+  background: #eee;
+  color: #000;
+}
+
+form button:link {
+
+  color: blue;
+
+}
