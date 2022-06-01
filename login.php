@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -11,10 +15,10 @@
 <body>
   <div id="page-wrap">
 
+    <?php require "header.php" ?>
+  
 
-<?php require "header.php" ?>
-
-<div class="clear"><br>
+  <div class="clear"><br>
    <center>
    <div id="menu">Розділи<hr>
   
@@ -28,25 +32,21 @@
 
    </center>
    </div>
-
+    <center>
    <div id="wrapper">
      <div id="articles">
-       <center>
-       <form action="mailto.php" method="POST">
-         <input type="email" name="mail" placeholder="Please enter your email" class="pole" required><br>
-         <input type = "text" name= "header" placeholder="enter header" class="pole" required><br>
-         <textarea name="message" placeholder="Message.." required> </textarea><br><br>
-         <!-- <input type="text" name="message"  -->
-         <button type="submit" value="send">Відправити</button>
-         
+      <h2> Вхід </h2><br>
+      <form action="log.php" class="regform" method="post">
+      <input type="text" name="login" placeholder="Введіть емейл" class="login_pole">
+      <input type="password" name="pass" placeholder="Введіть пароль" class="login_pole">
+      <button type="submit" name ="logbutton" class="loginButton">Вхід</button>
 
 
-       </form>
-         </center>
-     </div>
-     </div>
+      </form>
+      </center>
 
      </div>
-     <?php require "footer.php" ?>
+   </div>
+  </div>
 
-     
+  <?php "footer.php" ?>
