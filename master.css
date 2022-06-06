@@ -200,8 +200,23 @@ height: 200px;
 border-radius: 5px 5px 0px 0px;
 border-bottom: 1px salmon silver;
 margin-bottom: 10px;
+animation-duration: 4s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-name: loading;
+opacity: 1;
+}
+
+@keyframes loading {
+  0% { opacity: 0; }
+  50%  { opacity: 0.5; } 
+  75%  { opacity: 0.75; }
+  100%   { opacity: 1; }
+  
 
 }
+
+
 
 #wrapper #articles article h2 {
 width: 90%;
@@ -244,3 +259,5 @@ text-indent: 1em;
   float: left;
   margin-left: 38%;
 }
+
+

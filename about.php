@@ -28,15 +28,50 @@
 
    <div id="wrapper">
      <div id="articles">
-       <div id="aboutus">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea laborum deserunt perspiciatis temporibus, aliquam nulla corrupti hic explicabo, earum repellat enim doloribus labore! Aliquam molestias unde placeat facere harum.</p>
-
+       <div class="aboutus">
+       
+         <img src="https://cdna.artstation.com/p/assets/images/images/003/319/394/large/russell-marks-kraken-by-russellmarks-d98vq57.jpg?1559956061" alt="kraken">
+         <h3> Про нас </h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea laborum deserunt perspiciatis temporibus, aliquam nulla corrupti hic explicabo, earum repellat enim doloribus labore! Aliquam molestias unde placeat facere harum.</p>
+        <a href="https://www.codecademy.com/catalog/subject/web-design" target="_blank">Please follow this link</a>
+        
+        
        </div>
+
+       <div class="aboutus">
+       
+         <img src="https://cdna.artstation.com/p/assets/images/images/003/319/394/large/russell-marks-kraken-by-russellmarks-d98vq57.jpg?1559956061" alt="kraken">
+         <h3> Про нас </h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea laborum deserunt perspiciatis temporibus, aliquam nulla corrupti hic explicabo, earum repellat enim doloribus labore! Aliquam molestias unde placeat facere harum.</p>
+        <a href="https://www.codecademy.com/catalog/subject/web-design" target="_blank">Please follow this link</a>
+        
+        
+       </div>
+
+       <div class="aboutus">
+       
+         <img src="https://cdna.artstation.com/p/assets/images/images/003/319/394/large/russell-marks-kraken-by-russellmarks-d98vq57.jpg?1559956061" alt="kraken">
+         <h3> Про нас </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea laborum deserunt perspiciatis temporibus, aliquam nulla corrupti hic explicabo, earum repellat enim doloribus labore! Aliquam molestias unde placeat facere harum.</p>
+        <a href="https://www.codecademy.com/catalog/subject/web-design" target="_blank">Please follow this link</a>
+        
+       </div>
+        
        
 
     </div>
 
    </div>
+   <div class="longblock">
+         <a href="index.php" style="margin-top: 7px;"> World </a>
+         <br><h2> Feautured post </h2><br>
+         <p> 03 June </p>
+         <br><p> Lorem ipsum dolor sit amet consectetur aits impedit ab beatae explicabo assumenda accusantium voluptas excepturi! </p>
+         <br><a href="https://getbootstrap.com/docs/5.2/examples/blog/#">Continue reading</a>
+         <div class="shortblock">
+          <h3>Some text</h3>
+         </div>
+       </div>
      
    </div>
 

@@ -173,6 +173,7 @@ float: left;
 width: 100%;
 margin-top: 20px;
 
+
 }
 
 #wrapper #articles{
@@ -180,6 +181,7 @@ float: left;
 width: 80%;
 height: 400px;
 margin-left: 10%;
+
 
 }
 
@@ -192,6 +194,9 @@ margin-left: 10%;
   background-color: #fafafa;
   margin-right: 2%;
   min-height: 400px;
+ 
+  
+
 }
 
 #wrapper #articles article img {
@@ -200,7 +205,6 @@ height: 200px;
 border-radius: 5px 5px 0px 0px;
 border-bottom: 1px salmon silver;
 margin-bottom: 10px;
-
 }
 
 #wrapper #articles article h2 {
@@ -210,8 +214,17 @@ font-weight: normal;
 font-size: 1.7em;
 color: #666;
 
-
 }
+
+#wrapper #articles article h3 {
+  width: 95%;
+  margin-left: 10%;
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #666;
+  
+  }
+
 
 #wrapper #articles article p {
 width: 80%;
@@ -292,16 +305,116 @@ opacity: 90%;
 
 /* styles under are for about.php  */
 
-#aboutus {
-  width: 100%;
+.aboutus {
+  width: 31.3%;
+  min-height: 400px;
+  
   float: left;
-  background-color: #fafafa;
+  background-color: #c4bbc7ef;
   border-radius: 5px;
-  border: 1px solid silver;
+  border: 2px solid silver;
+  /* box-sizing: content-box; */
+  padding: 0px;
+  text-align: center;
+  color: rgb(124, 89, 89);
+  margin-left: 1px;
+  margin-right: 20px;
   box-sizing: border-box;
-  padding: 1px;
 }
 
+ .aboutus img{
+  
+  width: 100%;
+  height: 300px;
+border-radius: 5px 5px 0px 0px;
+border-bottom: 1px salmon silver;
+margin-bottom: 10px;
+}
+
+
+ .aboutus a { 
+
+   border: 2px solid black;
+   padding: 5px;
+   border-radius: 7px;
+   background-color: yellow;
+   color: rgb(207, 76, 76);
+   margin-bottom: 10px;
+   float: right;
+   position: relative;
+   margin-right: 5px;
+   margin-top: 5px;
+   
+}
+
+ .aboutus a:hover { 
+
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  color: yellow;
+  
+  
+}
+
+.longblock {
+  float: left;
+  width: 700px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.308);
+  margin-top: 100px;
+  margin: 100px;
+  padding-bottom: 00px;
+  box-sizing: content-box;
+  border-radius: 10px;
+  margin-left: 250px;
+  border: 1px solid silver;
+  
+}
+
+.longblock a {
+color: blue;
+margin-left: 15px;
+margin-top: 30px;
+margin: 30px;
+}
+
+.longblock p {
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+ 
+.longblock h2 {
+  
+  margin-left: 15px;
+  margin-top: 5px;
+  
+  }
+
+
+.shortblock {
+  height: 100%;
+  width: 30%;
+  background-color:grey;
+  float: right;
+  padding-bottom: 0px;
+  box-sizing: content-box;
+  margin-bottom: 300px;
+  margin-top: -189px;
+  border-radius: 0px 10px 10px 0px;
+
+}
+
+.longblock .shortblock h3 {
+  text-align: center;
+  margin:  110px 50px;
+  color: white;
+  font-weight: 300;
+  
+  
+}
 
 /* styles under are for feedback.php */
 
@@ -394,9 +507,24 @@ form button:link {
   cursor: cell;
 }
 
-/* styles for comments.php */
+
+/* styles for about.php */
+
+.maininfo  {
+  width: 10%;
+  background-color: #666;
+  border: 5px salmon salmon;
+  float: left;
+  margin-left: 10px;
+
+}
 
 
+  .centralblock {
 
-
-  
+    height: 300px;
+    width: 600px;
+    background-color: #333;
+    float: left;
+    border: 3px solid silver;
+  }
